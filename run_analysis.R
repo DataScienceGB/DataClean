@@ -59,7 +59,7 @@ data_mix<-cbind(subject_mix["SUBJECT"],label_mix["activity_name"],data_mix)
 ## write.table() using row.name=FALSE
 
 out=sapply(split(data_mix[,3,563],list(data_mix$activity_name,data_mix$SUBJECT)),mean)
-write.table(file="./data/req5.out",out,row.name=FALSE)
+write.table(file="./data/req5.txt",out,row.name=FALSE)
 
 }
 
