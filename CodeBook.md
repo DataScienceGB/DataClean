@@ -1,21 +1,21 @@
-Codebook for DataClean Project
-Data for this project is taken from data collected from samples using Samsung Galaxy S Smartphone
+#Codebook for DataClean Project
 
-Requirements:
-# In order to execute the run_analysis() method you must accomplish the following:
-## Access to https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip file
-## Downlod .zip file to R server
-## Unzip file into a data directory
-## data.table package must be installed
-## run_analysis.R script must be located in the same directory as the data directory is located (must be siblings)
-## You must source run_analysys.R script from your R session; Please review that your working directory contains the script and the data directory
-## execute run_analysys() method
-## Requested tidy data set will be find in the same data directory as: req5.txt
+##Data for this project is taken from data collected from samples using Samsung Galaxy S Smartphone
+
+##Requirements:
+* In order to execute the run_analysis() method you must accomplish the following:
+* Access to https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip file
+* Downlod .zip file to R server
+* Unzip file into a data directory
+* data.table package must be installed
+* run_analysis.R script must be located in the same directory as the data directory is located (must be siblings)
+* You must source run_analysys.R script from your R session; Please review that your working directory contains the script and the data directory
+* Execute run_analysys() method
 
 
-Files Description:
+##Files Description:
 
-### getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+*getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 
 
