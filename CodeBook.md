@@ -33,17 +33,17 @@
 
 The following describes steps used to produce the data requested by the project
 
-1) Read data from source: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
-  ..1.1) Use download.file method to requested data from web and downloaded to server
-  ..1.2) Unzip files and leave data to be usede
-2)Load Library(data.table) to use read.table methods requiered to load data
-3) Use read.table function to load test and train data into separate dts each  as follows:
-   ..3.1) data_test ./data/Dataset/test/X_test.txt
-   ..3.2) label_test ./data/Dataset/test/label_test.txt
-   ..3.3) suubject_test ./data/Dataset/test/subject_test.txt
-   ..3.4) data_train ./data/Dataset/test/X_train.txt
-   ..3.5) label_train ./data/Dataset/test/label_train.txt
-   ..3.6) subject_train ./data/Dataset/test/subject_train.txt
+1. Read data from source: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+  ..1.1. Use download.file method to requested data from web and downloaded to server
+  ..1.2. Unzip files and leave data to be usede
+2.Load Library(data.table) to use read.table methods requiered to load data
+3. Use read.table function to load test and train data into separate dts each  as follows:
+   ..3.1. data_test ./data/Dataset/test/X_test.txt
+   ..3.2. label_test ./data/Dataset/test/label_test.txt
+   ..3.3. suubject_test ./data/Dataset/test/subject_test.txt
+   ..3.4. data_train ./data/Dataset/test/X_train.txt
+   ..3.5. label_train ./data/Dataset/test/label_train.txt
+   ..3.6. subject_train ./data/Dataset/test/subject_train.txt
 4)Merge each test and train data set into a single one
   4.1) Use rbind on each couple to merge does files
 5)Start by assigning descriptive names to the variables 
