@@ -50,15 +50,15 @@ The following describes steps used to produce the data requested by the project
     1. Desciptions are located in the ./data/Dataset/features.txt file
     2. use colnames() funciton to assing previously read 
 6.  From the complete set of variables, selects only those that represents Mean and Std values
-  6.1) Use grep function to selects only variables requested
-  6.2) Create a new DT using only the selected variables
-7) Use descriptive activity names for the data set
-  7.1) Activities are located in the ./data/Dataset/activity_labels.txt file
-  7.2) Activity_lables file, maps activity numebers to activity names. This map will be used to replace numbers in the dataset
-  7.3) Replace numbers with activity_names in the dataset
-  7.4) Add Subject Column and Activity_name to the working dt
-8) Create a second data set from the previous DT 
-  8.1) DS must have average each variable for each subject and activity in the data set
-  8.2) Write DS to a file using write.file method
+   1. Use grep function to selects only variables requested
+   2. Create a new DT using only the selected variables
+7. Use descriptive activity names for the data set
+   1. Activities are located in the ./data/Dataset/activity_labels.txt file
+   2. Activity_lables file, maps activity numebers to activity names. This map will be used to replace numbers in the dataset
+   3. Replace numbers with activity_names in the dataset
+   4. Add Subject Column and Activity_name to the working dt
+8. Create a second data set from the previous DT 
+   1. DS must have average each variable for each subject and activity in the data set
+   2. Write DS to a file using write.file method
   
    
