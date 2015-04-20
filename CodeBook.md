@@ -34,22 +34,22 @@
 The following describes steps used to produce the data requested by the project
 
 1. Read data from source: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
-  ..1. Use download.file method to requested data from web and downloaded to server
-  ..1. Unzip files and leave data to be usede
+  1. Use download.file method to requested data from web and downloaded to server
+  2. Unzip files and leave data to be usede
 2.Load Library(data.table) to use read.table methods requiered to load data
 3. Use read.table function to load test and train data into separate dts each  as follows:
-   ..1. data_test ./data/Dataset/test/X_test.txt
-   ..2. label_test ./data/Dataset/test/label_test.txt
-   ..3. suubject_test ./data/Dataset/test/subject_test.txt
-   ..4. data_train ./data/Dataset/test/X_train.txt
-   ..5. label_train ./data/Dataset/test/label_train.txt
-   ..6. subject_train ./data/Dataset/test/subject_train.txt
-4)Merge each test and train data set into a single one
-  4.1) Use rbind on each couple to merge does files
-5)Start by assigning descriptive names to the variables 
-  5.1) Desciptions are located in the ./data/Dataset/features.txt file
-  5.2) use colnames() funciton to assing previously read 
-6)From the complete set of variables, selects only those that represents Mean and Std values
+     1. data_test ./data/Dataset/test/X_test.txt
+     2. label_test ./data/Dataset/test/label_test.txt
+     3. suubject_test ./data/Dataset/test/subject_test.txt
+     4. data_train ./data/Dataset/test/X_train.txt
+     5. label_train ./data/Dataset/test/label_train.txt
+     6. subject_train ./data/Dataset/test/subject_train.txt
+4.  Merge each test and train data set into a single one
+    1.  Use rbind on each couple to merge does files
+5.  Start by assigning descriptive names to the variables 
+    1. Desciptions are located in the ./data/Dataset/features.txt file
+    2. use colnames() funciton to assing previously read 
+6.  From the complete set of variables, selects only those that represents Mean and Std values
   6.1) Use grep function to selects only variables requested
   6.2) Create a new DT using only the selected variables
 7) Use descriptive activity names for the data set
