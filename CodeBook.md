@@ -6,7 +6,7 @@
 * In order to execute the run_analysis() method you must accomplish the following:
 * Access to https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip file
 * Downlod .zip file to R server
-* Unzip file into a data directory
+* Unzip file into data directory
 * data.table package must be installed
 * run_analysis.R script must be located in the same directory as the data directory is located (must be siblings)
 * You must source run_analysys.R script from your R session; Please review that your working directory contains the script and the data directory
@@ -15,11 +15,21 @@
 
 ##Files Description:
 
-*getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+* getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip := Source file for the analysis
+* ./data/Dataset/test/X_test.txt := Test measurements
+* ./data/Dataset/test/y_test.txt := Test lables
+* ./data/Dataset/test/subject_test.txt := Test subjects
+* ./data/Dataset/train/X_test.txt := Train measurements
+* ./data/Dataset/train/y_test.txt := Train lables
+* ./data/Dataset/train/subject_test.txt := Train subjects
+* ./data/Dataset/features.txt   := Measurement names
+* ./data/Dataset/activity_labels.txt := Activity descriptive names
+* ./data/req5.txt   := Tidy Dataset requested by this project
+* ./run_analysis.R  := R script to create requested data set
 
 
 
-run_analysys() Script Description
+##run_analysys() Script Description
 
 The following describes steps used to produce the data requested by the project
 
