@@ -29,7 +29,7 @@
 
 
 
-##run_analysys() Script Description
+##Script Description (run_analysis.R):
 
 The following describes steps used to produce the data requested by the project
 
