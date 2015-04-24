@@ -125,9 +125,6 @@ The following describes steps used to produce the data requested by the project
 50.  	angle(tBodyAccJerkMean),gravityMean)	:= Mean by activity and subject of angle(tBodyAccJerkMean),gravityMean)
 51.  	angle(tBodyGyroMean,gravityMean)	:= Mean by activity and subject of angle(tBodyGyroMean,gravityMean)
 52.  	angle(tBodyGyroJerkMean,gravityMean)	:= Mean by activity and subject of angle(tBodyGyroJerkMean,gravityMean)
-53.  	angle(X,gravityMean)	:= Mean by activity and subject of angle(X,gravityMean)
-54.  	angle(Y,gravityMean)	:= Mean by activity and subject of angle(Y,gravityMean)
-55.  	angle(Z,gravityMean)	:= Mean by activity and subject of angle(Z,gravityMean)
 
 
 
