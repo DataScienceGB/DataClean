@@ -71,11 +71,11 @@ The following describes steps used to produce the data requested by the project
   
    
 ##Variables Description (req5.txt contents)
-1.activity_name := Activity long name as described activity_labls file  
-2.subject       := Subject identifier
 
-3.    tBodyAcc-mean()-X	:= Mean by activity and subject of tBodyAcc-mean()-X
-4.    
+
+3.    activity_name := Activity long name as described activity_labels file
+4.    subject       := Subject identifier
+4.    tBodyAcc-mean()-X	:= Mean by activity and subject of tBodyAcc-mean()-X
 4.    tBodyAcc-mean()-Y	:= Mean by activity and subject of tBodyAcc-mean()-Y
 5.    tBodyAcc-mean()-Z	:= Mean by activity and subject of tBodyAcc-mean()-Z
 6.  	tGravityAcc-mean()-X	:= Mean by activity and subject of tGravityAcc-mean()-X
