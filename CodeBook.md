@@ -5,11 +5,11 @@
 ##Requirements:
 * In order to execute the run_analysis() method you must accomplish the following:
 * Access to https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip file
-* Downlod .zip file to R server
+* Downlod .zip file to your R server
 * Unzip file into data directory
-* data.table package must be installed
-* run_analysis.R script must be located in the same directory as the data directory is located (must be siblings)
-* You must source run_analysys.R script from your R session; Please review that your working directory contains the script and the data directory
+* data.table package must be previously installed, the script will loaded it for you
+* run_analysis.R script must be located in the same directory as the "data" directory is located (must be siblings)
+* You must source run_analysis.R script from your R session; Please review that your working directory contains the script and the data directory
 * Execute run_analysys() method
 
 
@@ -62,3 +62,6 @@ The following describes steps used to produce the data requested by the project
     2. Write DS to a file using write.file method
   
    
+Variables Description (req5.txt contents)
+
+
