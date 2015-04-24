@@ -14,6 +14,14 @@
 
 
 ##Files Description:
+** source files for this work were take from 
+**Human Activity Recognition Using Smartphones Dataset
+**Version 1.0
+*Use of this dataset in publications must be acknowledged by referencing the following publication [1] 
+*
+*[1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on *Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living *(IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
+*
+
 
 * getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip := Source file for the analysis
 * ./data/Dataset/test/X_test.txt := Test measurements
@@ -65,9 +73,9 @@ The following describes steps used to produce the data requested by the project
 ##Variables Description (req5.txt contents)
 1.activity_name := Activity long name as described activity_labls file  
 2.subject       := Subject identifier
-3.  	tBodyAcc-mean()-X	:= Mean by activity and subject of tBodyAcc-mean()-X
-4.  	tBodyAcc-mean()-Y	:= Mean by activity and subject of tBodyAcc-mean()-Y
-5.  	tBodyAcc-mean()-Z	:= Mean by activity and subject of tBodyAcc-mean()-Z
+3.    tBodyAcc-mean()-X	:= Mean by activity and subject of tBodyAcc-mean()-X
+4.    tBodyAcc-mean()-Y	:= Mean by activity and subject of tBodyAcc-mean()-Y
+5.    tBodyAcc-mean()-Z	:= Mean by activity and subject of tBodyAcc-mean()-Z
 6.  	tGravityAcc-mean()-X	:= Mean by activity and subject of tGravityAcc-mean()-X
 7.  	tGravityAcc-mean()-Y	:= Mean by activity and subject of tGravityAcc-mean()-Y
 8.  	tGravityAcc-mean()-Z	:= Mean by activity and subject of tGravityAcc-mean()-Z
