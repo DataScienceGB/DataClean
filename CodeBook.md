@@ -62,6 +62,62 @@ The following describes steps used to produce the data requested by the project
     2. Write DS to a file using write.file method
   
    
-Variables Description (req5.txt contents)
+##Variables Description (req5.txt contents)
+1.activity_name := Activity long name as described activity_labls file  
+2.subject       := Subject identifier
+3. tBodyAcc-mean()-X	:= Mean by activity and subject of tBodyAcc-mean()-X
+tBodyAcc-mean()-Y	:= Mean by activity and subject of tBodyAcc-mean()-Y
+tBodyAcc-mean()-Z	:= Mean by activity and subject of tBodyAcc-mean()-Z
+tGravityAcc-mean()-X	:= Mean by activity and subject of tGravityAcc-mean()-X
+tGravityAcc-mean()-Y	:= Mean by activity and subject of tGravityAcc-mean()-Y
+tGravityAcc-mean()-Z	:= Mean by activity and subject of tGravityAcc-mean()-Z
+tBodyAccJerk-mean()-X	:= Mean by activity and subject of tBodyAccJerk-mean()-X
+tBodyAccJerk-mean()-Y	:= Mean by activity and subject of tBodyAccJerk-mean()-Y
+tBodyAccJerk-mean()-Z	:= Mean by activity and subject of tBodyAccJerk-mean()-Z
+tBodyGyro-mean()-X	:= Mean by activity and subject of tBodyGyro-mean()-X
+tBodyGyro-mean()-Y	:= Mean by activity and subject of tBodyGyro-mean()-Y
+tBodyGyro-mean()-Z	:= Mean by activity and subject of tBodyGyro-mean()-Z
+tBodyGyroJerk-mean()-X	:= Mean by activity and subject of tBodyGyroJerk-mean()-X
+tBodyGyroJerk-mean()-Y	:= Mean by activity and subject of tBodyGyroJerk-mean()-Y
+tBodyGyroJerk-mean()-Z	:= Mean by activity and subject of tBodyGyroJerk-mean()-Z
+tBodyAccMag-mean()	:= Mean by activity and subject of tBodyAccMag-mean()
+tGravityAccMag-mean()	:= Mean by activity and subject of tGravityAccMag-mean()
+tBodyAccJerkMag-mean()	:= Mean by activity and subject of tBodyAccJerkMag-mean()
+tBodyGyroMag-mean()	:= Mean by activity and subject of tBodyGyroMag-mean()
+tBodyGyroJerkMag-mean()	:= Mean by activity and subject of tBodyGyroJerkMag-mean()
+fBodyAcc-mean()-X	:= Mean by activity and subject of fBodyAcc-mean()-X
+fBodyAcc-mean()-Y	:= Mean by activity and subject of fBodyAcc-mean()-Y
+fBodyAcc-mean()-Z	:= Mean by activity and subject of fBodyAcc-mean()-Z
+fBodyAcc-meanFreq()-X	:= Mean by activity and subject of fBodyAcc-meanFreq()-X
+fBodyAcc-meanFreq()-Y	:= Mean by activity and subject of fBodyAcc-meanFreq()-Y
+fBodyAcc-meanFreq()-Z	:= Mean by activity and subject of fBodyAcc-meanFreq()-Z
+fBodyAccJerk-mean()-X	:= Mean by activity and subject of fBodyAccJerk-mean()-X
+fBodyAccJerk-mean()-Y	:= Mean by activity and subject of fBodyAccJerk-mean()-Y
+fBodyAccJerk-mean()-Z	:= Mean by activity and subject of fBodyAccJerk-mean()-Z
+fBodyAccJerk-meanFreq()-X	:= Mean by activity and subject of fBodyAccJerk-meanFreq()-X
+fBodyAccJerk-meanFreq()-Y	:= Mean by activity and subject of fBodyAccJerk-meanFreq()-Y
+fBodyAccJerk-meanFreq()-Z	:= Mean by activity and subject of fBodyAccJerk-meanFreq()-Z
+fBodyGyro-mean()-X	:= Mean by activity and subject of fBodyGyro-mean()-X
+fBodyGyro-mean()-Y	:= Mean by activity and subject of fBodyGyro-mean()-Y
+fBodyGyro-mean()-Z	:= Mean by activity and subject of fBodyGyro-mean()-Z
+fBodyGyro-meanFreq()-X	:= Mean by activity and subject of fBodyGyro-meanFreq()-X
+fBodyGyro-meanFreq()-Y	:= Mean by activity and subject of fBodyGyro-meanFreq()-Y
+fBodyGyro-meanFreq()-Z	:= Mean by activity and subject of fBodyGyro-meanFreq()-Z
+fBodyAccMag-mean()	:= Mean by activity and subject of fBodyAccMag-mean()
+fBodyAccMag-meanFreq()	:= Mean by activity and subject of fBodyAccMag-meanFreq()
+fBodyBodyAccJerkMag-mean()	:= Mean by activity and subject of fBodyBodyAccJerkMag-mean()
+fBodyBodyAccJerkMag-meanFreq()	:= Mean by activity and subject of fBodyBodyAccJerkMag-meanFreq()
+fBodyBodyGyroMag-mean()	:= Mean by activity and subject of fBodyBodyGyroMag-mean()
+fBodyBodyGyroMag-meanFreq()	:= Mean by activity and subject of fBodyBodyGyroMag-meanFreq()
+fBodyBodyGyroJerkMag-mean()	:= Mean by activity and subject of fBodyBodyGyroJerkMag-mean()
+fBodyBodyGyroJerkMag-meanFreq()	:= Mean by activity and subject of fBodyBodyGyroJerkMag-meanFreq()
+angle(tBodyAccMean,gravity)	:= Mean by activity and subject of angle(tBodyAccMean,gravity)
+angle(tBodyAccJerkMean),gravityMean)	:= Mean by activity and subject of angle(tBodyAccJerkMean),gravityMean)
+angle(tBodyGyroMean,gravityMean)	:= Mean by activity and subject of angle(tBodyGyroMean,gravityMean)
+angle(tBodyGyroJerkMean,gravityMean)	:= Mean by activity and subject of angle(tBodyGyroJerkMean,gravityMean)
+angle(X,gravityMean)	:= Mean by activity and subject of angle(X,gravityMean)
+angle(Y,gravityMean)	:= Mean by activity and subject of angle(Y,gravityMean)
+angle(Z,gravityMean)	:= Mean by activity and subject of angle(Z,gravityMean)
+
 
 
