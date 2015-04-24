@@ -128,7 +128,7 @@ The following describes steps used to produce the data requested by the project
 53.  	angle(X,gravityMean)	:= Mean by activity and subject of angle(X,gravityMean)
 54.  	angle(Y,gravityMean)	:= Mean by activity and subject of angle(Y,gravityMean)
 55.  	angle(Z,gravityMean)	:= Mean by activity and subject of angle(Z,gravityMean)
-56.  	
+
 
 
 
