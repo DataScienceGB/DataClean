@@ -73,8 +73,8 @@ The following describes steps used to produce the data requested by the project
 ##Variables Description (req5.txt contents)
 1.activity_name := Activity long name as described activity_labls file  
 2.subject       := Subject identifier
-3.tBodyAcc-mean()-X	:= Mean by activity and subject of tBodyAcc-mean()-X
-4.tBodyAcc-mean()-Y	:= Mean by activity and subject of tBodyAcc-mean()-Y
+3.    tBodyAcc-mean()-X	:= Mean by activity and subject of tBodyAcc-mean()-X
+4.    tBodyAcc-mean()-Y	:= Mean by activity and subject of tBodyAcc-mean()-Y
 5.    tBodyAcc-mean()-Z	:= Mean by activity and subject of tBodyAcc-mean()-Z
 6.  	tGravityAcc-mean()-X	:= Mean by activity and subject of tGravityAcc-mean()-X
 7.  	tGravityAcc-mean()-Y	:= Mean by activity and subject of tGravityAcc-mean()-Y
@@ -126,6 +126,9 @@ The following describes steps used to produce the data requested by the project
 53.  	angle(X,gravityMean)	:= Mean by activity and subject of angle(X,gravityMean)
 54.  	angle(Y,gravityMean)	:= Mean by activity and subject of angle(Y,gravityMean)
 55.  	angle(Z,gravityMean)	:= Mean by activity and subject of angle(Z,gravityMean)
+56.  	
+
+
 
 
 
